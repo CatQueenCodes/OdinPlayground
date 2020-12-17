@@ -1,0 +1,32 @@
+body {
+    background-color: aqua;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#mainTaskContainer {
+    display: flex;
+    flex-direction: column;
+    border: black solid 3px;
+   
+}
+
+#mainProjectContainer {
+    display: flex;
+    flex-direction: column;
+    border: black solid 3px;
+   
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+}
